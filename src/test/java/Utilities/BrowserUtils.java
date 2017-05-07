@@ -27,7 +27,7 @@ import org.openqa.selenium.*;
             {
 
 
-                System.setProperty("webdriver.chrome.driver", "/Users/caglarfindikli/Test/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "c:\\chromedriver.exe");
 
                 driver = new ChromeDriver();
                 driver.manage().window().maximize();
